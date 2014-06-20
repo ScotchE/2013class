@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+@page {
+     margin-top: 0.8em;
+     margin-bottom: 0.1em;
+     margin-left: 4em;
+}
+
+
+.rose { color: #C4258C; }
+.brun { color: #786E59; }
+
+
+.pdf_main_pdf1 {
+  width: 2480px;
+  height: 1370px;
+  background: url('http://par.dh-mariage.com/img/invitations/pdf/PDF_master_s01.jpg') no-repeat;
+}
+
+.pdf_main_pdf2 {
+  width: 2480px;
+  height: 1370px;
+  background: url('http://par.dh-mariage.com/img/invitations/pdf/PDF_master_s02.jpg') no-repeat;
+}
+
+.pdf_main_pdf1_m {
+  width: 2480px;
+  height: 1370px;
+  background: url('http://par.dh-mariage.com/img/invitations/pdf/PDF_master_s03.jpg') no-repeat;
+}
+
+.pdf_main_pdf2_m {
+  width: 2480px;
+  height: 1370px;
+  background: url('http://par.dh-mariage.com/img/invitations/pdf/PDF_master_s04.jpg') no-repeat;
+}
+
+
+.pdf_merci {
+  width: 2480px;
+  height: 1370px;
+  background: url('http://par.dh-mariage.com/img/invitations/pdf/PDF_master_s05.jpg') no-repeat;
+}
+
+
+
+.decoupe {
+	border-top: 4px dashed #786E59;
+	height: 6px;
+}
+
+
+.offre{
+  font-family: 'Conduit ITC Light', sans-serif;
+  float: left;
+  margin-top:  990px;
+  margin-left: 90px;
+  width: 300px;
+  font-size: 42px;
+  line-height: 1.2em;
+  text-align: right;
+}
+
+.code{
+  font-family: 'Conduit ITC Light', sans-serif;
+  float: left;
+  margin-top: 930px;
+  margin-left: 30px;
+  /*left:   1250px;*/
+  width:  250px;
+}
+
+.message {
+  float: left;
+  font-family: 'Conduit ITC', sans-serif;
+  font-size: 45px;
+  text-align: justify;
+  margin-top: 900px;
+  margin-left: 60px;
+  width: 770px;
+  height: 300px;
+  line-height: 0.9em;
+}
+
+
+.message_large {
+  float: left;
+  font-family: 'Conduit ITC', sans-serif;
+  font-size: 45px;
+  text-align: justify;
+  margin-top: 900px;
+  margin-left: 60px;
+  width: 2100px;
+  height: 260px;
+  line-height: 0.9em;
+}
+
+
+.signature{ 
+	text-align: right;
+}
+
+.baseline , .pdf_baseline {
+	clear: left;
+	float: left;
+	font-family: 'Conduit ITC Light', sans-serif;
+	font-size: 31px;
+	width: 2310px;
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 1270px;
+	margin-bottom: 10px;
+}
+
+.pdf_mariee {
+	clear: left;
+	float: left;
+	font-family: 'Conduit ITC', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	width: 2310px;
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 1200px;
+}
+
+
+.pdf_titre{
+  width: 900px;
+  height: 200px;
+  float: left;
+  margin-top: 190px;
+  /*margin-left:120px;*/
+  text-align: right;
+}
+
+.pdf_titre h1 {
+	font-family: 'ITC Avant Garde Gothic';
+	font-size: 110px;
+	color: #C4258C;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.pdf_titre h4{
+	font-family: 'ITC Avant Garde Gothic';
+	font-size: 55px;
+	color: #766B5A;
+	line-height: 2em;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.pdf_logo {
+  width: 350px;
+  height: 300px;
+  float: right;
+  /*position: absolute;*/
+  margin-top: 330px;
+  margin-right: 350px;
+}
+
+.pdf_adresse {
+	position: absolute;
+	top: 930px;
+	font-family: 'ITC Avant Garde Gothic';
+	font-size: 36px;
+	line-height: 1.2em;
+	float: left;
+	width: 580px;
+	height: 300px;
+	padding-left: 230px;
+	background: url('http://par.dh-mariage.com/img/invitations/pdf/logo_175x151.png') no-repeat;
+	background-position-y : 88px;
+}
+
+.pdf_adresse .postale{
+	color: #766B5A;
+}
+.pdf_adresse .web{
+	color: #C4258C;	
+}
+
+.pdf_code {
+	position: absolute;
+	top: 970px;
+	left: 1000px;
+	width: 400px;
+	font-family: 'Conduit ITC Light';
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #766B5A;
+	text-align: right;
+
+}
+
+.pdf_code .scan{
+	font-size: 24px;
+	float: right;
+}
+
+.pdf_code .offre{
+	float: left;
+	padding-top: 27px;
+}
+
+.pdf_code .code{
+	float: right;
+}
+
+.pdf_rose {
+	position: absolute;
+	top: 690px;
+	left: 1500px;
+	float: left;
+	height: 620px;
+	width: 910px;
+	background: url('http://par.dh-mariage.com/img/invitations/pdf/bloc_rose.png') no-repeat;
+
+	font-family: 'ITC Avant Garde Gothic';
+	color: white;
+}
+
+.pdf_rose h2 {
+	font-family: 'ITC Avant Garde Gothic';
+	color: white;	
+	font-size: 42px;
+	text-align: center;
+	padding-left: 75px;
+	padding-right: 27px;
+	padding-top: 0px;
+}
+
+.pdf_rose h3 {
+	font-family: 'ITC Avant Garde Gothic';
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	padding-left: 86px;
+	padding-right: 18px;
+	padding-top: 32px;
+}
+
+.pdf_rose h4 {
+	font-family: 'ITC Avant Garde Gothic';
+	color: white;	
+	font-size: 34px;
+	text-align: center;
+	padding-left: 26px;
+	padding-right: 71px;
+	padding-top: 20px;
+	line-height: 1.8em;
+}
+
+.pdf_rose h5 {
+	font-family: 'ITC Avant Garde Gothic';
+	color: white;	
+	font-size: 32px;
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 40px;
+	padding-top: 20px;
+	line-height: 1.8em;
+}

@@ -1,0 +1,701 @@
+
+@font-face {
+  font-family: 'Conduit ITC Medium';
+  src: url('/assets/fonts/Conduit ITC Medium.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Conduit ITC Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Conduit ITC Medium.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Conduit ITC Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Conduit ITC Medium.svg#62043743f8634040a9fd6ad92b04dd57') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Conduit ITC Light';
+  src: url('/assets/fonts/Conduit ITC Light.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Conduit ITC Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Conduit ITC Light.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Conduit ITC Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Conduit ITC Light.svg#8c1625998c6c5258b7d05c60a45bde8c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Conduit ITC ExtraLight';
+  src: url('/assets/fonts/Conduit ITC ExtraLight.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Conduit ITC ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Conduit ITC ExtraLight.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Conduit ITC ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Conduit ITC ExtraLight.svg#56b1440f7dbc0ad0ae6c506b3d4f1b38') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+
+@charset "utf-8";
+body {
+    padding-top: 20px;
+}
+body, .hero-unit, .navbar-inner {
+    background: url('/img/fond_neutre.png') repeat-x;
+    color: #786E59;
+
+}
+
+.grand_titre{
+        background: url('/img/grand_titre.png') no-repeat;
+        background-position : center 9px;
+}
+
+.rose { color: #C4258C; }
+.brun { color: #786E59; }
+
+
+h1 {
+    font-size: 28px;
+    font-family: 'Conduit ITC Medium';
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #786E59;
+}
+
+h2, h4 {
+    font-size: 40px;
+    font-family: 'Conduit ITC Light';
+    color: #C4258C;
+    line-height: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.num_1 { background: url('/img/numero/num_1.png') no-repeat;  padding: 5px 30px 5px; }
+.num_2 { background: url('/img/numero/num_2.png') no-repeat;  padding: 5px 30px 5px; }
+.num_3 { background: url('/img/numero/num_3.png') no-repeat;  padding: 5px 30px 5px; }
+
+#bas {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: #766B59;
+}
+
+th {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: rgba(186,181,172,1);
+}
+
+td {
+  color: #766B59;
+  background-color: rgba(186,181,172,0.4);
+}
+
+a {
+  color: #C4258C;
+}
+
+a:hover {
+  color: #C4258C;
+}
+
+.mini {
+  font-size: 11px;
+}
+
+.hero-unit {
+    padding: 30px;
+    border-radius:20px;
+    text-shadow: 0 2px 0 #FFFFFF;
+}
+.hero-unit p {
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.hero-unit, .navbar {
+}
+.well {
+}
+.navbar .nav > li > a {
+    font-size: 16px;
+}
+
+.user {
+    font-family: 'Conduit ITC Medium';
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 200px;
+    padding: 2px 10px 0 0;
+}
+
+
+.user a {
+  font-size: 15px;
+  color: #766B59;
+  background: url('/img/deco.png') no-repeat;
+  text-transform: uppercase;
+  height: 28px;
+  padding: 10px 36px 10px 4px ;
+}
+
+.user a:hover {
+  color: #C4258C;
+  text-decoration: none;  
+}
+
+.masthead {
+    height: 155px;
+    margin-top: 15px;
+}
+
+.logoDH {
+    float: left;
+    width: 200px;
+}
+
+.titrePage{
+    float: left;
+    width: 450px;
+    padding-top: 55px;
+    padding-left: 35px;
+}
+
+.titrePage h2{
+  font-family: 'Conduit ITC ExtraLight';
+  text-transform: uppercase;
+  font-size: 45px;
+
+}
+
+.modeSite {
+    float: right;
+    width: 200px;
+}
+
+.main_mariage{
+    float: left;
+    height: 213px;
+
+}
+
+.deco_mariage{
+    float: right;
+    width: 232px;
+}
+
+.topo_mariage {
+    float: left;
+    width: 470px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.recap_mariage{
+    font-family: 'Conduit ITC Medium';
+    background: url('/img/fond_votre.png') no-repeat;
+    width: 230px;
+    height: 184px;
+    padding: 2px 20px 0 20px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    margin-left: 730px;
+}
+
+
+.recap_mariage h3 {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.recap_mariage ul {
+    margin: 0px;
+}
+
+.recap_mariage li {
+    list-style: none;
+    line-height: 1.8em;
+    text-transform: uppercase;
+}
+
+li.recap1 {
+    margin-left: 15px;
+    width: 215px;
+} 
+li.recap2 {
+    margin-left: 10px;
+    width: 215px;
+    text-align: right;
+} 
+li.recap3 {
+    width: 215px;
+    margin-left: 5px;
+} 
+
+li.recap4 {
+    width: 215px;
+    margin-left: 0px;
+} 
+
+.menu_lat {
+    background: url('/img/logo_dh_reflet.png') no-repeat;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    padding-top: 120px;
+    color: #766B59;
+    font-family: 'Conduit ITC Medium';
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.menu_lat ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu_lat li{
+    list-style: none;
+    height: 30px;
+    width: 93px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 90px;
+}
+
+.menu_lat a {
+  color: #766B59;
+}
+
+.menu_lat.actif a {
+  color: #FFFFFF;
+}
+
+.menu_lat a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+#lat_2 {
+    background: url('/img/menu/mnlat_2.png') no-repeat;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#lat_3 {
+    background: url('/img/menu/mnlat_3.png') no-repeat;    
+        padding-top: 14px;
+    padding-bottom: 14px;
+}
+#lat_4 {
+    background: url('/img/menu/mnlat_4.png') no-repeat;    
+    /*padding-top: 11px;*/
+        padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+
+a#lat_0 {height: 63px;  color #766B59; }
+a#lat_0 li { background: url('/img/menu/mnlat_0.png') no-repeat; }
+a#lat_0.actif li { background: url('/img/menu/mnlat_0_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_0 li { background: url('/img/menu/mnlat_0_s2.png') no-repeat;}
+
+a#lat_1 {height: 63px;  color #766B59; }
+a#lat_1 li { background: url('/img/menu/mnlat_1.png') no-repeat; }
+a#lat_1.actif li { background: url('/img/menu/mnlat_1_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_1 li { background: url('/img/menu/mnlat_1_s2.png') no-repeat;}
+
+a#lat_2 {height: 63px;  color #766B59;}
+a#lat_2 li { background: url('/img/menu/mnlat_2.png') no-repeat; }
+a#lat_2.actif li { background: url('/img/menu/mnlat_2_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_2 li { background: url('/img/menu/mnlat_2_s2.png') no-repeat;}
+
+
+a#lat_3 {height: 63px;  color #766B59;}
+a#lat_3 li { background: url('/img/menu/mnlat_3.png') no-repeat; }
+a#lat_3.actif li { background: url('/img/menu/mnlat_3_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_3 li { background: url('/img/menu/mnlat_3_s2.png') no-repeat;}
+
+a#lat_4 {height: 63px;  color #766B59;}
+a#lat_4 li { background: url('/img/menu/mnlat_4.png') no-repeat; }
+a#lat_4.actif li { background: url('/img/menu/mnlat_4_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_4 li { background: url('/img/menu/mnlat_4_s2.png') no-repeat;}
+
+a#lat_5 {height: 63px; color #766B59; }
+a#lat_5 li { background: url('/img/menu/mnlat_5.png') no-repeat; }
+a#lat_5.actif li { background: url('/img/menu/mnlat_5_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_5 li { background: url('/img/menu/mnlat_5_s2.png') no-repeat; }
+
+a#lat_6 {height: 63px; color #766B59; }
+a#lat_6 li { background: url('/img/menu/mnlat_6.png') no-repeat; }
+a#lat_6.actif li { background: url('/img/menu/mnlat_6_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_6 li { background: url('/img/menu/mnlat_6_s2.png') no-repeat; }
+
+a#lat_7 {height: 63px; color #766B59; }
+a#lat_7 li { background: url('/img/menu/mnlat_7.png') no-repeat; }
+a#lat_7.actif li { background: url('/img/menu/mnlat_7_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_7 li { background: url('/img/menu/mnlat_7_s2.png') no-repeat; }
+
+a#lat_8 {height: 63px; color #766B59; }
+a#lat_8 li { background: url('/img/menu/mnlat_8.png') no-repeat; }
+a#lat_8.actif li { background: url('/img/menu/mnlat_8_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_8 li { background: url('/img/menu/mnlat_8_s2.png') no-repeat; }
+
+a#lat_9 {height: 63px; color #766B59; }
+a#lat_9 li { background: url('/img/menu/mnlat_9.png') no-repeat; }
+a#lat_9.actif li { background: url('/img/menu/mnlat_9_s3.png') no-repeat; color: #FFFFFF;}
+a:hover#lat_9 li { background: url('/img/menu/mnlat_9_s2.png') no-repeat; }
+
+
+
+.contenu {
+    float: left;
+    width: 760px;
+    margin-top: 55px;
+}
+
+.contenu_home {
+    float: left;
+    width: 710px;
+}
+
+.formulaire {
+    width: 260px;
+    float: left;
+}
+
+.preview {
+    width: 450px;
+    float: right;
+}
+
+
+.remise {
+    float: left;
+    width: 742px;
+    margin-top: 50px;
+}
+
+
+.remise1 {
+    width: 200px;
+    font-family: 'Conduit ITC Medium';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #C4258C;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.remise2 {
+    background: url('/img/progress/progress_fond.png') no-repeat;
+    width: 476px;
+    height: 59px;
+    float: right;
+    padding: 20px
+}
+
+.remise_txt{
+  position: absolute;
+  float: left;
+  margin-left: 202px;
+  margin-top: -34px;
+  font-family: 'Conduit ITC Medium';
+  font-size: 48px;
+  color: #C4258C;
+}
+
+
+.remise_small {
+    position: absolute;
+    /*float: left;*/
+    width: 282px;
+    margin-top: 0px;
+    margin-left: 740px
+}
+
+
+.remise_small .remise1 {
+    width: 131px;
+    font-family: 'Conduit ITC Medium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #C4258C;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.remise_small .remise2 {
+    background: none;
+    width: 106px;
+    height: 59px;
+    float: right;
+    padding: 20px
+}
+
+.remise_small .remise_txt{
+  position: absolute;
+  float: left;
+  margin-left: 36px;
+  margin-top: -36px;
+  font-family: 'Conduit ITC Medium';
+  font-size: 28px;
+  color: #C4258C;
+}
+
+
+.progress {
+
+  background-color: none;
+  background: none;
+  background-image: none;
+  box-shadow: none;
+
+	-webkit-transform: skew(-9deg);
+	-moz-transform: skew(-9deg);
+	-o-transform: skew(-9deg);
+	tranform: skew(-9deg);
+
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.br_inv{
+  float: left;
+  width: 710px;
+  height: 59px;
+  background: url('/img/barreinv/inv_fond.png') no-repeat;
+  margin-bottom: 20px;
+}
+
+.br_inv_plus {
+  float: left;
+  width: 205px;
+  height: 54px;
+}
+
+.br_inv_mail a, .br_inv_pdf a, .br_inv_fb a{
+  font-family: 'Conduit ITC Medium';
+  padding: 20px 0px 20px 50px;
+  color: #786E59;
+  text-transform: uppercase;
+  font-size: 15px;
+}  
+
+
+.br_inv_mail a {
+  float: left;
+  width: 90px;
+  background: url('/img/barreinv/inv_mail.png') no-repeat;
+}
+
+.br_inv_mail a:hover{
+  background: url('/img/barreinv/inv_mail_hover.png') no-repeat;
+  color: #C4258C;
+  text-decoration: none;
+}
+
+.br_inv_pdf a {
+  float: left;
+  width: 135px;
+  height: 54px;
+  background: url('/img/barreinv/inv_pdf.png') no-repeat;
+}
+
+.br_inv_pdf a:hover {
+  background: url('/img/barreinv/inv_pdf_hover.png') no-repeat;
+  color: #C4258C;
+  text-decoration: none;
+}
+
+a.br_inv_pdf , a.br_inv_mail{
+  height: 30px;
+  padding-top: 6px;
+  margin-left: 10px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+
+a.br_inv_pdf {
+  width: 70px;
+  background: url('/img/barreinv/inv_pdf.png') no-repeat;
+  background-position: 0px -10px;
+}
+
+a.br_inv_mail {
+  width: 80px;
+  background: url('/img/barreinv/inv_mail.png') no-repeat;
+  background-position: 0px -10px;
+}
+
+
+a.br_inv_pdf:hover {
+  background: url('/img/barreinv/inv_pdf_hover.png') no-repeat;
+  background-position: 0px -10px;
+}
+
+a.br_inv_mail:hover {
+  background: url('/img/barreinv/inv_mail_hover.png') no-repeat;
+  background-position: 0px -10px;
+}
+
+
+
+.br_inv_fb a {
+  padding: 20px 0px 20px 35px;
+  float: left;
+  width: 95px;
+  height: 54px;
+  background: url('/img/barreinv/inv_fb.png') no-repeat;
+}
+
+.br_inv_fb a:hover {
+  background: url('/img/barreinv/inv_fb_hover.png') no-repeat;
+  color: #C4258C;
+  text-decoration: none;
+}
+
+.bt_effacer {
+  background: url('/img/picto/picto_effacer.png') no-repeat;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+
+.bt_modifier {
+  background: url('/img/picto/picto_modifier.png') no-repeat;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+
+.bt_cle {
+  background: url('/img/picto/picto_cle.png') no-repeat;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+
+a.btn-detail {
+    font-family: 'Conduit ITC Medium';
+    text-transform: uppercase;
+    /*color: #C80E8E;*/
+    height: 100%;
+    display: block;
+}
+
+a.btn-detail:hover {
+    /*color: #FFFFFF;*/
+    /*background-color: #C80E8E;*/
+    text-decoration: none;
+}
+
+td.btn-detail {
+  vertical-align:middle
+}
+
+.table-striped tbody > tr:nth-child(odd) > td.btn-detail:hover, td.btn-detail:hover {
+    background-color: #C80E8E;
+    color: #FFFFFF;
+}
+
+td.btn-detail:hover a {
+    color: #FFFFFF;
+}
+
+
+.chosen-container {
+  margin-bottom: 15px;
+}
+
+
+
+.btn-pr {
+  display: inline-block;
+  padding: 4px 2px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+.btn-rose, .btn-brun, .btn-gris {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+
+.btn-rose, .btn-brun, .btn-gris {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(255,255,255,0);
+  border-style: solid;
+  border-width: 0px 10px 0px 10px;
+  padding: 2px 6px 3px;
+  /*height: 25px;*/
+}
+
+.btn-rose {
+  -moz-border-image: url(/img/boutons/bt_r.png) 0 10 0 10 repeat;
+  -webkit-border-image: url(/img/boutons/bt_r.png) 0 10 0 10 repeat;
+  -o-border-image: url(/img/boutons/bt_r.png) 0 10 0 10 repeat;
+  border-image: url(/img/boutons/bt_r.png) 0 10 0 10 fill repeat;
+ }
+
+.btn-brun {
+
+
+  -moz-border-image: url(/img/boutons/bt_b.png) 0 10 0 10 repeat;
+  -webkit-border-image: url(/img/boutons/bt_b.png) 0 10 0 10 repeat;
+  -o-border-image: url(/img/boutons/bt_b.png) 0 10 0 10 repeat;
+  border-image: url(/img/boutons/bt_b.png) 0 10 0 10 fill repeat;
+
+ }
+
+.btn-gris {
+  -moz-border-image: url(/img/boutons/bt_g.png) 0 10 0 10 repeat;
+  -webkit-border-image: url(/img/boutons/bt_g.png) 0 10 0 10 repeat;
+  -o-border-image: url(/img/boutons/bt_g.png) 0 10 0 10 repeat;
+  border-image: url(/img/boutons/bt_g.png) 0 10 0 10 fill repeat;
+ }
+
+a:hover.btn-rose, a:hover.btn-brun, a:hover.btn-gris{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.email {
+  font-size: 80%;
+}
