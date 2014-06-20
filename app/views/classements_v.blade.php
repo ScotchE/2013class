@@ -3,7 +3,7 @@
 @section('main')
 
 
-<h1>Classements</h1>
+<h1>Classements VET</h1>
 
 
 <?php
